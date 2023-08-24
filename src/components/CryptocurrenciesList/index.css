@@ -1,0 +1,129 @@
+/* Write your CSS code here */
+
+.currencies-list-container {
+}
+
+.main-heading {
+  color: #00e7ff;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.header-image {
+  /* You can add styles for the header image if needed */
+  text-align: center;
+}
+
+.currencies-table-list-container {
+  border: 3px solid #00e7ff;
+  border-radius: 8px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.table-attributes {
+  /* You can add styles for the table attributes if needed */
+  background-color: #092e33;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-attribute-container {
+}
+.last-attributes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.coin-type-name {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 70px;
+}
+.usd-name {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+
+  padding-right: 60px;
+}
+.euro-name {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 22px;
+  padding-left: 80px;
+  padding-right: 90px;
+}
+.loader-style {
+  text-align: center;
+}
+.ul {
+  list-style-type: none;
+}
+
+@media (max-width: 575px) {
+  .currencies-table-list-container {
+    margin: 10px;
+  }
+
+  .table-attributes {
+    padding: 5px;
+  }
+
+  .coin-type-name {
+    padding-left: 10px;
+    font-size: 18px;
+  }
+
+  .usd-name,
+  .euro-name {
+    font-size: 18px;
+    padding-right: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .main-heading {
+    font-size: 30px;
+  }
+
+  .table-attributes {
+    padding: 8px;
+  }
+
+  .coin-type-name {
+    padding-left: 30px;
+  }
+
+  .usd-name,
+  .euro-name {
+    padding-right: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-heading {
+    font-size: 48px;
+  }
+
+  .table-attributes {
+    padding: 10px;
+  }
+
+  .coin-type-name {
+    font-size: 22px;
+    padding-left: 70px;
+  }
+
+  .usd-name,
+  .euro-name {
+    font-size: 22px;
+    padding-right: 100px;
+  }
+}

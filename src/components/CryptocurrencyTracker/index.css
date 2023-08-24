@@ -1,0 +1,32 @@
+/* Write your CSS here */
+
+.Tracker-container {
+  background-color: #000000;
+  background-size: cover;
+  height: 100vh;
+  padding: 10px;
+}
+
+@media (max-width: 575px) {
+  .Tracker-container {
+    padding: 5px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .Tracker-container {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .Tracker-container {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .Tracker-container {
+    padding: 30px;
+  }
+}

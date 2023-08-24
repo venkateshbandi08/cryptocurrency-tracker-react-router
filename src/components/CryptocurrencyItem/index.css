@@ -1,0 +1,99 @@
+.each-row-item {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.crypto-logo-name-container {
+  padding-left: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.crypto-logo {
+  width: 30px;
+}
+.crypto-name {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-left: 15px;
+}
+.usd-euro-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.usd-value {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-left: 15px;
+  padding-right: 60px;
+}
+.euro-value {
+  color: #ffffff;
+  padding-left: 80px;
+  padding-right: 100px;
+}
+
+@media (max-width: 575px) {
+  .each-row-item {
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .crypto-logo-name-container {
+    padding-left: 0;
+    margin-bottom: 5px;
+  }
+
+  .crypto-name {
+    font-size: 16px;
+  }
+
+  .usd-euro-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .usd-value,
+  .euro-value {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .crypto-name {
+    font-size: 18px;
+  }
+
+  .usd-value,
+  .euro-value {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .each-row-item {
+    padding: 15px;
+  }
+
+  .crypto-logo-name-container {
+    padding-left: 70px;
+  }
+
+  .crypto-name {
+    font-size: 20px;
+  }
+
+  .usd-euro-container {
+    flex-direction: row;
+  }
+
+  .usd-value,
+  .euro-value {
+    font-size: 20px;
+  }
+}
